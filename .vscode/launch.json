@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "c:/Users/park9/Desktop/sds_alg",
-      "program": "c:/Users/park9/Desktop/sds_alg/build/Debug/outDebug",
+      "cwd": "c:/Users/park9/Desktop/sds_alg/baekjoon/1주차",
+      "program": "c:/Users/park9/Desktop/sds_alg/baekjoon/1주차/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
