@@ -18,7 +18,7 @@ int main(){
     cin >> str >> n;
     q.push(str); // queue에 값 추가
 
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++) {
         set<string> st; // 중복 제거할 set
         int qsize = q.size();
 
@@ -31,10 +31,10 @@ int main(){
                 continue;
             st.insert(s);
 
-            for(int k = 0; k < s.size() - 1; k++){
-                for(int l = k + 1; l < s.size(); l++){
+            for(int k = 0; k < s.size() - 1; k++) {
+                for(int l = k + 1; l < s.size(); l++) {
                     // 맨 앞자리이고 바꿀 자리의 숫자가 0이면 False
-                    if(!(k == 0 && s[l] == '0')){
+                    if(!(k == 0 && s[l] == '0')) {
                         swap(s, k, l);
                         q.push(s);
                         swap(s, k, l); // 원래대로 되돌림
@@ -44,7 +44,7 @@ int main(){
         }
     }
 
-    while(!q.empty()){
+    while(!q.empty()) {
         answer = max(answer, q.front());
         q.pop();
     }
