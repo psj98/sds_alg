@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
     ll x, y;
-    int z, ans=0, l=0, h=1000000000;
+    int z;
     cin >> x >> y;
     z = (y*100)/x;
 
