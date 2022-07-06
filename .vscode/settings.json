@@ -72,6 +72,8 @@
     "typeinfo": "cpp",
     "cstring": "cpp",
     "set": "cpp",
-    "numeric": "cpp"
+    "numeric": "cpp",
+    "functional": "cpp",
+    "iterator": "cpp"
   }
 }

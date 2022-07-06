@@ -29,7 +29,7 @@ int main(){
         }
         else{
             ll sum=0;
-            ll r=b+idx-1, l=c+=idx-1;
+            ll r=b+idx-1, l=c+idx-1;
             while(r<=l){
                 if(r%2==1) sum+=tree[r];
                 if(l%2==0) sum+=tree[l];
